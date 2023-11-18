@@ -3,9 +3,9 @@ using namespace std;
 int main(){
     string s;
     cin>>s;
-    int max_len =1;
-    int len = 1;
-    for(int i = 0;i<s.length()-1;i++){
+    ll max_len =1;
+    ll len = 1;
+    for(ll i = 0;i<s.length()-1;i++){
         if(s[i] == s[i+1]){
             len++;
         }else{

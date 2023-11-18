@@ -2,15 +2,15 @@
 using namespace std;
 
 int main(){
-    int n;
+    ll n;
     cin>>n;
-    int arr[n+1] = {0};
-    for(int i = 0;i<n-1;i++){
-        int temp;
+    ll arr[n+1] = {0};
+    for(ll i = 0;i<n-1;i++){
+        ll temp;
         cin>>temp;
         arr[temp] = 1;
     }
-    for(int i = 1;i<=n;i++){
+    for(ll i = 1;i<=n;i++){
         if(arr[i] == 0){
             cout<<i<<endl;
             return 0;

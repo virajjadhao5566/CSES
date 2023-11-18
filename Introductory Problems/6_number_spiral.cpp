@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    long long int T;
+    long long ll T;
     cin>>T;
     while(T--){
-        long long int row,col;
+        long long ll row,col;
         cin>>row>>col;
         if(col>=row){
             if(col%2 == 0){
