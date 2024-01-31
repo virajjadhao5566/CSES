@@ -1,0 +1,1 @@
+{"name":"Local: rectangleCutting","url":"d:\\CSES Problem Set\\DP\\rectangleCutting.java","tests":[{"id":1706241655098,"input":"127 36","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CSES Problem Set\\DP\\rectangleCutting.java","group":"local","local":true}
